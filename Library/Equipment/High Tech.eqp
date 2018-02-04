@@ -25931,17 +25931,87 @@
 		<description>Izhmash AKM, 7.62x39mm</description>
 		<tech_level>7</tech_level>
 		<legality_class>2</legality_class>
-		<value>0</value>
+		<value>450</value>
 		<weight>8.7 lb</weight>
+		<reference>HT120</reference>
 		<ranged_weapon>
 			<damage>5d+1 pi</damage>
-			<strength>9</strength>
+			<strength>9&#8224;</strength>
 			<accuracy>4</accuracy>
-			<range>500/3100</range>
+			<range>500/3,100</range>
 			<rate_of_fire>10</rate_of_fire>
 			<shots>30(3)</shots>
 			<bulk>-5</bulk>
 			<recoil>2</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
 		</ranged_weapon>
 		<categories>
 			<category>Firearms</category>
